@@ -60,13 +60,13 @@ class GetVersionCommand(distutils.cmd.Command):
         print(version)
 
 setup(
-    name='my_project',  # Required
+    name='ode',  # Required
     version=version,
     description='description here',
     license='Apache 2.0 License',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/aequitas-aod/my_project',
+    url='https://github.com/aequitas-aod/ode',
     author='Name Surname',
     author_email='name.surname@organization.domain',
     classifiers=[
@@ -92,10 +92,10 @@ setup(
     zip_safe = False,
     platforms = "Independant",
     project_urls={  # Optional
-        'Bug Reports': 'https://github.com/aequitas-aod/my_project/issues',
+        'Bug Reports': 'https://github.com/aequitas-aod/ode/issues',
         # 'Funding': 'https://donate.pypi.org',
         # 'Say Thanks!': 'http://saythanks.io/to/example',
-        'Source': 'https://github.com/aequitas-aod/my_project',
+        'Source': 'https://github.com/aequitas-aod/ode',
     },
     cmdclass={
         'get_project_version': GetVersionCommand,
